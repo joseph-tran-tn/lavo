@@ -3,6 +3,7 @@ $thisPageName = 'top';
 include_once(dirname(__FILE__) . '/app_config.php');
 include(APP_PATH.'libs/head.php');
 ?>
+<link rel="stylesheet" href="<?php echo APP_ASSETS ?>css/owl.carousel.min.css">
 <link rel="stylesheet" href="<?php echo APP_ASSETS ?>css/page/top.min.css">
 </head>
 <body id="top" class='top'>
@@ -10,28 +11,31 @@ include(APP_PATH.'libs/head.php');
   <?php include(APP_PATH.'libs/header.php'); ?>
 
   <div id="wrap">    
-    <div class="top-box1">
-      <p class="img">
+    <div class="top-box1 owl-carousel">
+      <div class="img item">
         <img src="<?php echo APP_ASSETS ?>img/top/img_main.jpg" alt="">
-      </p>
+      </div>
+      <div class="img item">
+        <img src="<?php echo APP_ASSETS ?>img/top/img_main.jpg" alt="">
+      </div>
     </div>
     <div class="top-box2">
       <h2 class="ttl">XU HƯỚNG TÓC 2019</h2>
     </div>
-    <ul class="top-box3">
-      <li>
+    <div class="top-box3 owl-carousel">
+      <div class="item">
         <a href="javascript: void(0);">
           <img src="<?php echo APP_ASSETS ?>img/top/img_1.jpg" alt="">
-          <span class="icon"><img src="<?php echo APP_ASSETS ?>img/top/icon_next.png" alt="next"></span>
+          <!-- <span class="icon"><img src="<?php echo APP_ASSETS ?>img/top/icon_next.png" alt="next"></span> -->
         </a>
-      </li>
-      <li>
+      </div>
+      <div class="item">
         <a href="javascript: void(0);">
           <img src="<?php echo APP_ASSETS ?>img/top/img_2.jpg" alt="">
-          <span class="icon icon1"><img src="<?php echo APP_ASSETS ?>img/top/icon_back.png" alt="next"></span>
+          <!-- <span class="icon icon1"><img src="<?php echo APP_ASSETS ?>img/top/icon_back.png" alt="next"></span> -->
         </a>
-      </li>
-    </ul>
+      </div>
+    </div>
     <div class="top-box4">
       <div class="left-box clearfix">
         <div class="txt-box">
@@ -261,6 +265,7 @@ include(APP_PATH.'libs/head.php');
 
   <?php include(APP_PATH.'libs/footer.php'); ?>
   
+  <script src="<?php echo APP_ASSETS; ?>js/lib/owl.carousel.min.js"></script>
   <script>
     $(document).ready(function() {
       $("body").on("click", ".list-tab a", function(){
@@ -268,7 +273,39 @@ include(APP_PATH.'libs/head.php');
         $(this).addClass('active');
         $(".tabcom").removeClass('active');
         $("#"+$(this).attr("data-id")).addClass('active');
-      })
+      });
+
+      $(".top-box1").owlCarousel({
+        items: 1,
+        startPosition: 0,
+        loop: true,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        smartSpeed: 1000,
+        slideSpeed: 1000,
+      });
+
+      $(".top-box3").owlCarousel({
+        items: 2,
+        startPosition: 0,
+        loop: true,
+        nav:true,
+        dots: false,
+        autoplay: true,
+        smartSpeed: 1000,
+        slideSpeed: 1000,
+        navigation:true,
+        responsive:{
+          0:{
+            items:1
+          },
+          640:{
+            items:2
+          }
+        }
+      });
+
     });
   </script>
 

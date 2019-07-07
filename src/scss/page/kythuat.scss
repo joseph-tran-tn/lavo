@@ -6,64 +6,11 @@
     width: 100%;
   }
 }
-.bread_cumb{
-  padding: 15px;
-  border-bottom: 1px solid #f3f3ed;
-  margin-bottom: 75px;
-  text-align: center;
-  font-size: 0;
-  letter-spacing: 0;
-  @include max-screen(767px) {
-    margin-bottom: 50px;
-  }
-  li{
-    display: inline-block;
-    vertical-align: middle;
-    img{
-      display: block;
-    }
-    a, span{
-      display: inline-block;
-      font-size: 19px;
-      position: relative;
-      @include max-screen(767px) {
-        font-size: 16px;
-      }
-    }
-    a{
-      padding-right: 50px;
-      &:after{
-        content: "";
-        display: block;
-        border-top: 1px solid #000;
-        border-left: 1px solid #000;
-        width: 15px;
-        height: 15px;
-        -webkit-transform: rotate(135deg);
-        -moz-transform: rotate(135deg);
-        -ms-transform: rotate(135deg);
-        -o-transform: rotate(135deg);
-        transform: rotate(135deg);
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        margin-top: -6px;
-      }
-      @include max-screen(767px) {
-        padding-right: 40px;
-        &:after{
-          width: 12px;
-          height: 12px;
-        }
-      }
-    }
-  }
-}
 .kt_box2{
   padding: 0 15px;
   margin-bottom: 65px;
   .inner_box{
-    max-width: 1240px;
+    max-width: 1400px;
     margin: 0 auto;
   }
   .ttl{

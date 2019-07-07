@@ -84,11 +84,11 @@
             <a href="<?php echo APP_URL; ?>" class="<?php if($thisPageName == 'top'){ echo 'active'; } ?>">Trang Chủ</a>
           </li>
           <li>
-            <a href="javascript: void(0);" class="<?php if($thisPageName == 'gioithieu'){ echo 'active'; } ?>">Giới Thiệu</a>
+            <a href="<?php echo APP_URL; ?>gioithieu/" class="<?php if($thisPageName == 'gioithieu'){ echo 'active'; } ?>">Giới Thiệu</a>
           </li>
           <li class="is_submenu">
             <span class="icon">&nbsp;</span>
-            <a href="javascript: void(0);" class="<?php if($thisPageName == 'top'){ echo 'thuonghieu'; } ?>">Thương Hiệu</a>
+            <a href="<?php echo APP_URL; ?>thuonghieu/" class="<?php if($thisPageName == 'thuonghieu'){ echo 'active'; } ?>">Thương Hiệu</a>
             <ul class="sub">
               <li>
                 <a href="javascript: void(0);">Thương Hiệu 1</a>
