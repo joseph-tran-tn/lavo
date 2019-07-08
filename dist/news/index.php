@@ -10,7 +10,7 @@ include(APP_PATH.'libs/head.php');
   <?php include(APP_PATH.'libs/header.php'); ?>
 
   <div id="wrap">
-    <div class="th_box1">
+    <div class="news_box1">
       <img src="<?php echo APP_ASSETS ?>img/news/img_main.jpg" alt="">
     </div>
     <ul class="bread_cumb">
@@ -23,63 +23,42 @@ include(APP_PATH.'libs/head.php');
         <span>Tin Tức</span>
       </li>
     </ul>
-    <div class="th_box2">
-      <div class="inner_box">
-        <h2 class="ttl">LAVOX</h2>
-        <div class="txt_box">
-         
-        </div>
-      </div>
-    </div>
-    <div class="th_box3">
+    
+    <div class="news_box2">
       <div class="inner_box">
         <ul class="list">
+          <?php for( $i = 0; $i < 15; $i++ ){ ?>
           <li>
-            <a href="javascript: void(0);">
-              <span class="img">
-                <img src="<?php echo APP_ASSETS ?>img/thuonghieu/img_1.jpg" alt="UỐN DUỖI">
-              </span>
-              <span class="txt">UỐN DUỖI</span>
-            </a>
+            <div class="box">
+              <p class="img">
+                <img src="<?php echo APP_ASSETS ?>img/news/img_1.jpg" alt="">
+              </p>
+              <h3 class="ttl">Picking the Right Diagnostic Services for Efficint Results</h3>
+              <p class="time_box">
+                <span class="time">Jan 21, 2018 at 8:12pm</span>
+                <span class="cat">News</span>
+              </p>
+              <div class="txt_sum">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="<?php echo APP_URL; ?>news/single.php" class="txtLinkCom"></a>
+            </div>
           </li>
-          <li>
-            <a href="javascript: void(0);">
-              <span class="img">
-                <img src="<?php echo APP_ASSETS ?>img/thuonghieu/img_2.jpg" alt="UỐN DUỖI">
-              </span>
-              <span class="txt">UỐN DUỖI</span>
-            </a>
-          </li>
+        <?php } ?>
         </ul>
-      </div>
-    </div>
-    <div class="th_box4">
-      <div class="inner_box">
-        <a href="javascript: void(0);">
-          <img src="<?php echo APP_ASSETS ?>img/thuonghieu/img_3.jpg" alt="UỐN DUỖI">
-        </a>
-      </div>
-    </div>
-    <div class="th_box3 th_box5">
-      <div class="inner_box">
-        <ul class="list">
-          <li>
-            <a href="javascript: void(0);">
-              <span class="img">
-                <img src="<?php echo APP_ASSETS ?>img/thuonghieu/img_4.jpg" alt="UỐN DUỖI">
-              </span>
-              <span class="txt">UỐN DUỖI</span>
-            </a>
-          </li>
-          <li>
-            <a href="javascript: void(0);">
-              <span class="img">
-                <img src="<?php echo APP_ASSETS ?>img/thuonghieu/img_5.jpg" alt="UỐN DUỖI">
-              </span>
-              <span class="txt">UỐN DUỖI</span>
-            </a>
-          </li>
-        </ul>
+        
+        <!-- Paging-->
+          <div class="wp-pagenavi"> 
+            <a class="prev page-numbers" href="javascript:void(0);"></a>
+            <a class="page-numbers" href="javascript:void(0);">1</a>
+            <a class="page-numbers" href="javascript:void(0);">2</a>
+            <span class="page-numbers current">3</span>
+            <a class="page-numbers" href="javascript:void(0);">4</a>
+            <a class="page-numbers" href="javascript:void(0);">5</a>
+            <a class="next page-numbers" href="javascript:void(0);"></a>                    
+          </div> <!-- //Paging-->
+
+
       </div>
     </div>
   </div> <!-- #wrap -->
