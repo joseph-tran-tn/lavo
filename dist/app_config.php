@@ -40,3 +40,5 @@ if(ENVIRONMENT == 'dev') {
   $aBccToContact = array('vntesttongali2@gmail.com');
   $fromContact = "vntesttongali@gmail.com";
 }
+
+include(APP_PATH.'libs/function.php');  
