@@ -105,7 +105,7 @@
             <a href="<?php echo APP_URL; ?>kythuat/" class="<?php if($thisPageName == 'kythuat'){ echo 'active'; } ?>">Kỹ Thuật</a>
           </li>
           <li>
-            <a href="javascript: void(0);" class="<?php if($thisPageName == 'tintuc'){ echo 'active'; } ?>">Tin Tức</a>
+            <a href="<?php echo APP_URL; ?>news/" class="<?php if($thisPageName == 'tintuc'){ echo 'active'; } ?>">Tin Tức</a>
           </li>
           <li>
             <a href="javascript: void(0);" class="<?php if($thisPageName == 'tuyendung'){ echo 'active'; } ?>">Tuyển Dụng</a>

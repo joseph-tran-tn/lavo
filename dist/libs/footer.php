@@ -20,19 +20,19 @@
         <h3 class="ttl">Link</h3>
         <ul class="list">
           <li>
-            <a href="javascript: void(0);">Trang Chủ</a>
+            <a href="<?php echo APP_URL; ?>">Trang Chủ</a>
           </li>
           <li>
-            <a href="javascript: void(0);">Giới Thiệu</a>
+            <a href="<?php echo APP_URL; ?>gioithieu/">Giới Thiệu</a>
           </li>
           <li>
-            <a href="javascript: void(0);">Thương Hiệu</a>
+            <a href="<?php echo APP_URL; ?>thuonghieu/">Thương Hiệu</a>
           </li>
           <li>
-            <a href="javascript: void(0);">Kỹ Thuật</a>
+            <a href="<?php echo APP_URL; ?>kythuat/">Kỹ Thuật</a>
           </li>
           <li>
-            <a href="javascript: void(0);">Tin Tức</a>
+            <a href="<?php echo APP_URL; ?>news/">Tin Tức</a>
           </li>
           <li>
             <a href="javascript: void(0);">Tuyển Dụng</a>
