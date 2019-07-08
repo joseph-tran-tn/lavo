@@ -108,10 +108,10 @@
             <a href="<?php echo APP_URL; ?>news/" class="<?php if($thisPageName == 'tintuc'){ echo 'active'; } ?>">Tin Tức</a>
           </li>
           <li>
-            <a href="javascript: void(0);" class="<?php if($thisPageName == 'tuyendung'){ echo 'active'; } ?>">Tuyển Dụng</a>
+            <a href="<?php echo APP_URL; ?>tuyendung/" class="<?php if($thisPageName == 'tuyendung'){ echo 'active'; } ?>">Tuyển Dụng</a>
           </li>
           <li>
-            <a href="javascript: void(0);" class="<?php if($thisPageName == 'lienhe'){ echo 'active'; } ?>">Liên Hệ</a>
+            <a href="<?php echo APP_URL; ?>lienhe/" class="<?php if($thisPageName == 'lienhe'){ echo 'active'; } ?>">Liên Hệ</a>
           </li>
         </ul>
         <p class="close_layer"><span>Close</span></p>

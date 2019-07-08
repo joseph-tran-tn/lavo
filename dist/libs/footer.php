@@ -35,10 +35,10 @@
             <a href="<?php echo APP_URL; ?>news/">Tin Tức</a>
           </li>
           <li>
-            <a href="javascript: void(0);">Tuyển Dụng</a>
+            <a href="<?php echo APP_URL; ?>tuyendung/">Tuyển Dụng</a>
           </li>
           <li>
-            <a href="javascript: void(0);">Liên Hệ</a>
+            <a href="<?php echo APP_URL; ?>lienhe/">Liên Hệ</a>
           </li>
         </ul>
       </div>
