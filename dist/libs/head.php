@@ -12,6 +12,7 @@ if($ua->set() === 'tablet') echo '<meta content="width=1024" name="viewport">';
 else echo '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">';
 
 include(APP_PATH.'libs/argument.php');  
+include(APP_PATH.'libs/function.php');  
 ?>
 <title><?php echo $titlepage?></title>
 <meta name="description" content="<?php echo $desPage; ?>">
