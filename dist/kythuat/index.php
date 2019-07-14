@@ -40,7 +40,7 @@ include(APP_PATH.'libs/head.php');
         <div class="inner">
           <h3 class="ttl">XU HƯỚNG TÓC 2019</h3>
           <p class="txt">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+            Lorem ipsum dolor sit amet, eu nibh aliquam, vel nonummy <br class="hidden-xs">dui quis aenean pretium, nunc enim. 
           </p>
         </div>
       </div>

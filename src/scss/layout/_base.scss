@@ -488,6 +488,7 @@ tbody.collapse.in { display: table-row-group; }
       display: inline-block;
       font-size: 19px;
       position: relative;
+      letter-spacing: 1;
       @include max-screen(767px) {
         font-size: 16px;
       }
@@ -521,16 +522,8 @@ tbody.collapse.in { display: table-row-group; }
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hidden-xs{
+  @include max-screen(767px) {
+    display: none;
+  }
+}

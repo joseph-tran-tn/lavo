@@ -66,25 +66,25 @@ include(APP_PATH.'libs/head.php');
       <ul class="list">
         <li>
           <a href="javascript: void(0);">
-            <img src="<?php echo APP_ASSETS ?>img/top/img_11.png" alt="UỐN - DUỖI">
+            <img src="<?php echo APP_ASSETS ?>img/top/img_11.jpg" alt="UỐN - DUỖI" class="top-box5__bg">
             <span class="txt">UỐN - DUỖI</span>
           </a>
         </li>
         <li>
           <a href="javascript: void(0);">
-            <img src="<?php echo APP_ASSETS ?>img/top/img_12.png" alt="MÀU NHUỘM">
+            <img src="<?php echo APP_ASSETS ?>img/top/img_12.jpg" alt="MÀU NHUỘM" class="top-box5__bg">
             <span class="txt">MÀU NHUỘM</span>
           </a>
         </li>
         <li>
           <a href="javascript: void(0);">
-            <img src="<?php echo APP_ASSETS ?>img/top/img_13.png" alt="PHỤC HỒI">
+            <img src="<?php echo APP_ASSETS ?>img/top/img_13.jpg" alt="PHỤC HỒI" class="top-box5__bg">
             <span class="txt">PHỤC HỒI</span>
           </a>
         </li>
         <li>
           <a href="javascript: void(0);">
-            <img src="<?php echo APP_ASSETS ?>img/top/img_14.png" alt="PHỤC HỒI">
+            <img src="<?php echo APP_ASSETS ?>img/top/img_14.jpg" alt="PHỤC HỒI" class="top-box5__bg" 0px -5px 5px -2px rgba(0,0,0,0.75)>
             <span class="txt">PHỤC HỒI</span>
           </a>
         </li>
@@ -103,33 +103,33 @@ include(APP_PATH.'libs/head.php');
     <ul class="top-box5 top-box51">
       <li>
         <a href="javascript: void(0);">
-          <img src="<?php echo APP_ASSETS ?>img/top/img_5.jpg" alt="UỐN - DUỖI">
+          <img src="<?php echo APP_ASSETS ?>img/top/img_5.jpg" alt="UỐN - DUỖI" class="top-box5__bg">
           <span class="logo">
-            <img src="<?php echo APP_ASSETS ?>img/top/logo_1.png" alt="UỐN - DUỖI">
+            <img src="<?php echo APP_ASSETS ?>img/top/logo_1.png" alt="UỐN - DUỖI" class="top-box5__logo">
           </span>
         </a>
       </li>
       <li>
         <a href="javascript: void(0);">
-          <img src="<?php echo APP_ASSETS ?>img/top/img_6.jpg" alt="MÀU NHUỘM">
+          <img src="<?php echo APP_ASSETS ?>img/top/img_6.jpg" alt="MÀU NHUỘM" class="top-box5__bg">
           <span class="logo">
-            <img src="<?php echo APP_ASSETS ?>img/top/logo_2.png" alt="UỐN - DUỖI">
+            <img src="<?php echo APP_ASSETS ?>img/top/logo_2.png" alt="UỐN - DUỖI" class="top-box5__logo">
           </span>
         </a>
       </li>
       <li>
         <a href="javascript: void(0);">
-          <img src="<?php echo APP_ASSETS ?>img/top/img_7.jpg" alt="PHỤC HỒI">
+          <img src="<?php echo APP_ASSETS ?>img/top/img_7.jpg" alt="PHỤC HỒI" class="top-box5__bg">
           <span class="logo">
-            <img src="<?php echo APP_ASSETS ?>img/top/logo_3.png" alt="UỐN - DUỖI">
+            <img src="<?php echo APP_ASSETS ?>img/top/logo_3.png" alt="UỐN - DUỖI" class="top-box5__logo">
           </span>
         </a>
       </li>
       <li>
         <a href="javascript: void(0);">
-          <img src="<?php echo APP_ASSETS ?>img/top/img_8.jpg" alt="PHỤC HỒI">
+          <img src="<?php echo APP_ASSETS ?>img/top/img_8.jpg" alt="PHỤC HỒI" class="top-box5__bg">
           <span class="logo">
-            <img src="<?php echo APP_ASSETS ?>img/top/logo_4.png" alt="UỐN - DUỖI">
+            <img src="<?php echo APP_ASSETS ?>img/top/logo_4.png" alt="UỐN - DUỖI" class="top-box5__logo">
           </span>
         </a>
       </li>
@@ -142,7 +142,7 @@ include(APP_PATH.'libs/head.php');
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
           </div>
           <p class="btn-more">
-            <a href="javascript: void(0);">Đọc thêm...</a>
+            <a href="javascript: void(0);">Đọc tiếp...</a>
           </p>
         </div>
         <div class="box2">
@@ -161,6 +161,7 @@ include(APP_PATH.'libs/head.php');
             </li>
           </ul>
           <div class="txt2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
           </div>
         </div>
@@ -201,11 +202,10 @@ include(APP_PATH.'libs/head.php');
         </ul>
         <div class="des-box active tabcom" id="tab1">
           <ul class="list">
-            <?php for( $i = 0; $i < 4; $i++ ) { ?>
             <li>
               <div class="box">
                 <p class="img">
-                  <img src="<?php echo APP_ASSETS ?>img/top/img_10.jpg" alt="">
+                  <img src="<?php echo APP_ASSETS ?>img/top/sukien-01.png" alt="">
                 </p>
                 <div class="txt-box">
                   <h4 class="ttl">Lorem Ipsum is simply dummy text of the printing the printing 1</h4>
@@ -216,7 +216,48 @@ include(APP_PATH.'libs/head.php');
                 <a href="javascript: void(0);" class="txtLinkCom">Lorem Ipsum is simply dummy text of the printing 1</a>
               </div>
             </li>
-          <?php } ?>
+            <li>
+              <div class="box">
+                <p class="img">
+                  <img src="<?php echo APP_ASSETS ?>img/top/sukien-02.png" alt="">
+                </p>
+                <div class="txt-box">
+                  <h4 class="ttl">Lorem Ipsum is simply dummy text of the printing the printing 1</h4>
+                  <div class="txt">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  </div>
+                </div>
+                <a href="javascript: void(0);" class="txtLinkCom">Lorem Ipsum is simply dummy text of the printing 1</a>
+              </div>
+            </li>
+            <li>
+              <div class="box">
+                <p class="img">
+                  <img src="<?php echo APP_ASSETS ?>img/top/sukien-03.png" alt="">
+                </p>
+                <div class="txt-box">
+                  <h4 class="ttl">Lorem Ipsum is simply dummy text of the printing the printing 1</h4>
+                  <div class="txt">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  </div>
+                </div>
+                <a href="javascript: void(0);" class="txtLinkCom">Lorem Ipsum is simply dummy text of the printing 1</a>
+              </div>
+            </li>
+            <li>
+              <div class="box">
+                <p class="img">
+                  <img src="<?php echo APP_ASSETS ?>img/top/sukien-04.jpg" alt="">
+                </p>
+                <div class="txt-box">
+                  <h4 class="ttl">Lorem Ipsum is simply dummy text of the printing the printing 1</h4>
+                  <div class="txt">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  </div>
+                </div>
+                <a href="javascript: void(0);" class="txtLinkCom">Lorem Ipsum is simply dummy text of the printing 1</a>
+              </div>
+            </li>
           </ul>
         </div>
         <div class="des-box tabcom" id="tab2">

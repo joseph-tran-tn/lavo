@@ -36,9 +36,6 @@ include(APP_PATH.'libs/head.php');
           <span class="time">Jan 21, 2018 at 8:12pm</span>
           <span class="cat">News</span>
         </p>
-        <p class="img_main">
-          <img src="<?php echo APP_ASSETS ?>img/news/img_1.jpg" alt="">
-        </p>
         <div class="content_box">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -51,9 +48,6 @@ include(APP_PATH.'libs/head.php');
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <p>
-            <img src="<?php echo APP_ASSETS ?>img/news/img_1.jpg" alt="">
           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

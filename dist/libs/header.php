@@ -87,7 +87,6 @@
             <a href="<?php echo APP_URL; ?>gioithieu/" class="<?php if($thisPageName == 'gioithieu'){ echo 'active'; } ?>">Giới Thiệu</a>
           </li>
           <li class="is_submenu">
-            <span class="icon">&nbsp;</span>
             <a href="<?php echo APP_URL; ?>thuonghieu/" class="<?php if($thisPageName == 'thuonghieu'){ echo 'active'; } ?>">Thương Hiệu</a>
             <ul class="sub">
               <li>
