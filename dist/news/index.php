@@ -27,11 +27,11 @@ include(APP_PATH.'libs/head.php');
     <div class="news_box2">
       <div class="inner_box">
         <ul class="list">
-          <?php for( $i = 0; $i < 15; $i++ ){ ?>
+
           <li>
             <div class="box">
               <p class="img">
-                <img src="<?php echo APP_ASSETS ?>img/news/img_1.jpg" alt="">
+                <img src="<?php echo APP_ASSETS ?>img/news/tin-tuc-01.jpg" alt="">
               </p>
               <h3 class="ttl">Picking the Right Diagnostic Services for Efficint Results</h3>
               <p class="time_box">
@@ -44,7 +44,182 @@ include(APP_PATH.'libs/head.php');
               <a href="<?php echo APP_URL; ?>news/single.php" class="txtLinkCom"></a>
             </div>
           </li>
-        <?php } ?>
+          <li>
+            <div class="box">
+              <p class="img">
+                <img src="<?php echo APP_ASSETS ?>img/news/tin-tuc-02.jpg" alt="">
+              </p>
+              <h3 class="ttl">Picking the Right Diagnostic Services for Efficint Results</h3>
+              <p class="time_box">
+                <span class="time">Jan 21, 2018 at 8:12pm</span>
+                <span class="cat">News</span>
+              </p>
+              <div class="txt_sum">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="<?php echo APP_URL; ?>news/single.php" class="txtLinkCom"></a>
+            </div>
+          </li>
+          <li>
+            <div class="box">
+              <p class="img">
+                <img src="<?php echo APP_ASSETS ?>img/news/tin-tuc-03.jpg" alt="">
+              </p>
+              <h3 class="ttl">Picking the Right Diagnostic Services for Efficint Results</h3>
+              <p class="time_box">
+                <span class="time">Jan 21, 2018 at 8:12pm</span>
+                <span class="cat">News</span>
+              </p>
+              <div class="txt_sum">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="<?php echo APP_URL; ?>news/single.php" class="txtLinkCom"></a>
+            </div>
+          </li>
+          <li>
+            <div class="box">
+              <p class="img">
+                <img src="<?php echo APP_ASSETS ?>img/news/tin-tuc-04.jpg" alt="">
+              </p>
+              <h3 class="ttl">Picking the Right Diagnostic Services for Efficint Results</h3>
+              <p class="time_box">
+                <span class="time">Jan 21, 2018 at 8:12pm</span>
+                <span class="cat">News</span>
+              </p>
+              <div class="txt_sum">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="<?php echo APP_URL; ?>news/single.php" class="txtLinkCom"></a>
+            </div>
+          </li>
+          <li>
+            <div class="box">
+              <p class="img">
+                <img src="<?php echo APP_ASSETS ?>img/news/tin-tuc-05.jpg" alt="">
+              </p>
+              <h3 class="ttl">Picking the Right Diagnostic Services for Efficint Results</h3>
+              <p class="time_box">
+                <span class="time">Jan 21, 2018 at 8:12pm</span>
+                <span class="cat">News</span>
+              </p>
+              <div class="txt_sum">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="<?php echo APP_URL; ?>news/single.php" class="txtLinkCom"></a>
+            </div>
+          </li>
+          <li>
+            <div class="box">
+              <p class="img">
+                <img src="<?php echo APP_ASSETS ?>img/news/tin-tuc-06.jpg" alt="">
+              </p>
+              <h3 class="ttl">Picking the Right Diagnostic Services for Efficint Results</h3>
+              <p class="time_box">
+                <span class="time">Jan 21, 2018 at 8:12pm</span>
+                <span class="cat">News</span>
+              </p>
+              <div class="txt_sum">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="<?php echo APP_URL; ?>news/single.php" class="txtLinkCom"></a>
+            </div>
+          </li>
+          <li>
+            <div class="box">
+              <p class="img">
+                <img src="<?php echo APP_ASSETS ?>img/news/tin-tuc-07.jpg" alt="">
+              </p>
+              <h3 class="ttl">Picking the Right Diagnostic Services for Efficint Results</h3>
+              <p class="time_box">
+                <span class="time">Jan 21, 2018 at 8:12pm</span>
+                <span class="cat">News</span>
+              </p>
+              <div class="txt_sum">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="<?php echo APP_URL; ?>news/single.php" class="txtLinkCom"></a>
+            </div>
+          </li>
+          <li>
+            <div class="box">
+              <p class="img">
+                <img src="<?php echo APP_ASSETS ?>img/news/tin-tuc-08.jpg" alt="">
+              </p>
+              <h3 class="ttl">Picking the Right Diagnostic Services for Efficint Results</h3>
+              <p class="time_box">
+                <span class="time">Jan 21, 2018 at 8:12pm</span>
+                <span class="cat">News</span>
+              </p>
+              <div class="txt_sum">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="<?php echo APP_URL; ?>news/single.php" class="txtLinkCom"></a>
+            </div>
+          </li>
+          <li>
+            <div class="box">
+              <p class="img">
+                <img src="<?php echo APP_ASSETS ?>img/news/tin-tuc-09.jpg" alt="">
+              </p>
+              <h3 class="ttl">Picking the Right Diagnostic Services for Efficint Results</h3>
+              <p class="time_box">
+                <span class="time">Jan 21, 2018 at 8:12pm</span>
+                <span class="cat">News</span>
+              </p>
+              <div class="txt_sum">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="<?php echo APP_URL; ?>news/single.php" class="txtLinkCom"></a>
+            </div>
+          </li>
+          <li>
+            <div class="box">
+              <p class="img">
+                <img src="<?php echo APP_ASSETS ?>img/news/tin-tuc-10.jpg" alt="">
+              </p>
+              <h3 class="ttl">Picking the Right Diagnostic Services for Efficint Results</h3>
+              <p class="time_box">
+                <span class="time">Jan 21, 2018 at 8:12pm</span>
+                <span class="cat">News</span>
+              </p>
+              <div class="txt_sum">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="<?php echo APP_URL; ?>news/single.php" class="txtLinkCom"></a>
+            </div>
+          </li>
+          <li>
+            <div class="box">
+              <p class="img">
+                <img src="<?php echo APP_ASSETS ?>img/news/tin-tuc-11.jpg" alt="">
+              </p>
+              <h3 class="ttl">Picking the Right Diagnostic Services for Efficint Results</h3>
+              <p class="time_box">
+                <span class="time">Jan 21, 2018 at 8:12pm</span>
+                <span class="cat">News</span>
+              </p>
+              <div class="txt_sum">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="<?php echo APP_URL; ?>news/single.php" class="txtLinkCom"></a>
+            </div>
+          </li>
+          <li>
+            <div class="box">
+              <p class="img">
+                <img src="<?php echo APP_ASSETS ?>img/news/tin-tuc-12.jpg" alt="">
+              </p>
+              <h3 class="ttl">Picking the Right Diagnostic Services for Efficint Results</h3>
+              <p class="time_box">
+                <span class="time">Jan 21, 2018 at 8:12pm</span>
+                <span class="cat">News</span>
+              </p>
+              <div class="txt_sum">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="<?php echo APP_URL; ?>news/single.php" class="txtLinkCom"></a>
+            </div>
+          </li>
         </ul>
         
         <!-- Paging-->

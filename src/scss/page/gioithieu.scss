@@ -40,6 +40,7 @@
   .txt_box{
     overflow: hidden;
     padding-right: 20px;
+    text-align: justify;
   }
   @include max-screen(767px) {
     margin-bottom: 50px;
@@ -87,6 +88,7 @@
       line-height: 1.2;
       letter-spacing: 2px;
       margin-bottom: 10px;
+      font-family: sanThin;
       @include max-screen(860px) {
         font-size: 36px;
       }
@@ -98,6 +100,7 @@
     .txt{
       font-size: 60px;
       line-height: 1.2;
+      font-family: sanThin;
       @include max-screen(860px) {
         font-size: 45px;
       }
@@ -123,6 +126,7 @@
     text-align: center;
     letter-spacing: 0;
     font-family: "sanBold";
+    color: #000;
     @include max-screen(992px) {
       font-size: 40px;
       margin-bottom: 50px;
@@ -211,6 +215,7 @@
     margin-bottom: 110px;
     line-height: 1.2;
     font-family: "sanBold";
+    color: #000;
     @include max-screen(767px) {
       font-size: 24px;
       margin-bottom: 30px;
@@ -247,7 +252,12 @@
           left: 0;
           width: 100%;
           height: 100%;
-          background: rgba(0, 0, 0, .5);
+          background: rgba(0, 0, 0, 0);
+          display: block;
+          -webkit-transition: all 0.3s ease-out;
+          -moz-transition: all 0.3s ease-out;
+          -o-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
         }
         .txt{
           display: block;
@@ -261,6 +271,7 @@
           font-family: "sanBold";
           transform: translate(0, -50%);
           opacity: 0;
+          z-index: 3;
           @include max-screen(767px) {
             font-size: 14px;
             opacity: 1;          
@@ -273,9 +284,10 @@
               opacity: 1;
             }
             &:before{
-              opacity: 0;
+               background: rgba(0, 0, 0, 0.5);
+              z-index: 2;
             }
-            img{
+            img {
               -moz-transform: scale(1.1);
               -moz-transform: scale(1.1);
               -moz-transform: scale(1.1);

@@ -293,7 +293,35 @@
   overflow: hidden;
   .list{
     margin: 0 -1px;
-  }  
+    li{
+      a{
+        &:after{
+          content: '';
+          width: 100%;
+          background:rgba(0,0,0,.7);
+          height: 100%;
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 0;
+          opacity: 1;
+          -webkit-transition: all 0.3s ease-out;
+          -moz-transition: all 0.3s ease-out;
+          -o-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+        }
+        &:hover{
+          &:after{
+            opacity: 0;
+          }
+        }
+      }
+    }
+  } 
+  &__logo {
+    max-width: 100%;
+    height: auto;
+  }
   li{
     display: inline-block;
     vertical-align: top;
@@ -307,21 +335,20 @@
       position: relative;
       display: block;
       overflow: hidden;
+      background: red;
       &:before{
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, .5); 
-        -webkit-transition: all 1s;
-        -moz-transition: all 1s;
-        -o-transition: all 1s;
-        transition: all 1s;
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-        display: inline-block;
+        // content: "";
+        // position: absolute;
+        // top: 0;
+        // left: 0;
+        // width: 100%;
+        // height: 100%;
+        // background: rgba(0, 0, 0, .5); 
+        // -webkit-transition: all 0.3s ease-out;
+        // -moz-transition: all 0.3s ease-out;
+        // -o-transition: all 0.3s ease-out;
+        // transition: all 0.3s ease-out;
+        // display: block;
       }
       img{
         width: 100%;
@@ -329,11 +356,13 @@
       @include min-screen(768px) {
         &:hover{
           opacity: 1;
-          &:before{
-            -webkit-transform: scale(0, 0);
-            transform: scale(0, 0);
+          .txt{
+            text-shadow: 1px 1px #000, -1px -1px #000;
           }
-          img{
+          &:before{
+
+          }
+          .top-box5__bg{
             -moz-transform: scale(1.1);
             -moz-transform: scale(1.1);
             -moz-transform: scale(1.1);
@@ -370,6 +399,9 @@
   }  
 }
 .top-box51{
+  box-shadow: 3px 3px 15px #000,
+  -3px -3px 15px #000;
+
   li{
     @include max-screen(767px) {
       width: 50%;
@@ -446,6 +478,14 @@
       font-size: 50px;
       font-family: "sanBold";
       line-height: 1.2;
+      &:before{
+        content: '';
+        display: block;
+        width: 42%;
+        height: 2px;
+        background: #e4e4e6;
+        margin: 0 0 50px 0;
+      }
       @include max-screen(767px) {
         font-size: 36px;
         margin-bottom: 15px;
@@ -453,6 +493,9 @@
     }
     .txt{
       margin-bottom: 10px;
+      font-size: 19px;
+      max-width: 368px;
+      font-weight: 500;
     }
     .btn-more{
       text-align: right;
@@ -467,6 +510,7 @@
   }
   .box2{
     overflow: hidden;
+    padding-top: 45px;
     padding-left: 140px;    
     .list{
       font-size: 0;
@@ -476,13 +520,23 @@
         display: inline-block;
         width: 50%;
         vertical-align: top;
+        &:nth-child(odd){
+          padding-right: 30px;
+        }
+        &:nth-child(even){
+          padding-left: 30px;
+        }
         .icon{
           margin-bottom: 50px;
         }
         .txt1{
-          font-size: 16px;
+          font-size: 19px;
         }
       }
+    }
+    .txt2 {
+      font-size: 14px;
+      color: #9ba0a8;
     }
     @include max-screen(1024px) {
       padding-left: 50px;
