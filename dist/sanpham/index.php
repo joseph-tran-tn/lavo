@@ -88,36 +88,36 @@ include(APP_PATH.'libs/head.php');
       <h3 class="sanpham__related__h3">Sản phẩm liên quan</h3>
       <div class="sanpham__related__list clearfix">
         <div class="sanpham__related__item">
-          <div class="sanpham__related__item__inner">
+          <a href="<?php echo APP_URL ?>sanpham/" class="sanpham__related__item__inner">
             <div class="sanpham__related__item__image">
               <img src="<?php echo APP_ASSETS ?>img/sanpham/pro01.jpg" alt="">
             </div>
             <div class="sanpham__related__item__name">OXY SIÊU DƯỠNG NANO COMPLEX</div>
-          </div>
+          </a>
         </div>
         <div class="sanpham__related__item">
-          <div class="sanpham__related__item__inner">
+          <a href="<?php echo APP_URL ?>sanpham/" class="sanpham__related__item__inner">
             <div class="sanpham__related__item__image">
               <img src="<?php echo APP_ASSETS ?>img/sanpham/pro02.jpg" alt="">
             </div>
             <div class="sanpham__related__item__name">TINH DẦU MACADAMIA CHỐNG RỐI TÓC</div>
-          </div>
+          </a>
         </div>
         <div class="sanpham__related__item">
-          <div class="sanpham__related__item__inner">
+          <a href="<?php echo APP_URL ?>sanpham/" class="sanpham__related__item__inner">
             <div class="sanpham__related__item__image">
               <img src="<?php echo APP_ASSETS ?>img/sanpham/pro03.jpg" alt="">
             </div>
             <div class="sanpham__related__item__name">UỐN SIÊU SÓNG NANO COMPLEX</div>
-          </div>
+          </a>
         </div>
         <div class="sanpham__related__item">
-          <div class="sanpham__related__item__inner">
+          <a href="<?php echo APP_URL ?>sanpham/" class="sanpham__related__item__inner">
             <div class="sanpham__related__item__image">
               <img src="<?php echo APP_ASSETS ?>img/sanpham/pro04.jpg" alt="">
             </div>
             <div class="sanpham__related__item__name">DẦU GỘI GIỮ MÀU</div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

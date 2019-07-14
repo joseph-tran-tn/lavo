@@ -2,3 +2,4 @@
 dist/assets/img/
 src/img/
 package-lock.json
+dist/sftp-config.json
