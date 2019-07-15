@@ -30,9 +30,11 @@ include(APP_PATH.'libs/head.php');
       </li>
     </ul>
   </div> <!-- #wrap -->
-  <div class="products__wrap">
+  <div class="container">
       <div class="row">
-          
+          <div class="products__box">
+              <div class="products__box__around"></div>
+          </div>
       </div>
   </div>
 

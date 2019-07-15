@@ -1,9 +1,6 @@
 @import '../utility/*';
 
 .sanpham_page {
-  .th_box1 {
-    img {width: 100%;}
-  }
   .sanpham {
     &__detailbox {display: flex; max-width: 1030px; margin: 0 auto; justify-content: space-between; line-height: 1.3; padding: 0 15px;
       @include max-screen(767px) {display: block;}
@@ -92,15 +89,9 @@
         @include max-screen(767px) {width: 50%; padding: 0 8px;
           &:nth-child(2n+1) {clear: both;}
         }
-        &__inner {display: block;
-          @include min-screen(768px) {
-            &:hover {opacity: 1;
-              .sanpham__related__item__image img {transform: scale(1.1,1.1);}
-            }
-          }
-        }
-        &__image {overflow: hidden;
-          img {display: block; margin: 0 auto; width: 100%; transition: 0.3s ease all;}
+        &__inner {}
+        &__image {
+          img {display: block; margin: 0 auto; width: 100%;}
         }
         &__name {@include font-size(20); text-align: center; padding: 0 10px; margin: 30px 0 0;
           @include max-screen(1280px) {@include font-size(16);}
@@ -108,4 +99,7 @@
       }
     }
   }
+}
+.products{
+  
 }
