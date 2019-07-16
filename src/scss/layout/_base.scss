@@ -82,6 +82,7 @@ pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, str
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  font-family: sanThin;
 }
 img {
   margin: 0;
@@ -483,6 +484,9 @@ tbody.collapse.in { display: table-row-group; }
     vertical-align: middle;
     img{
       display: block;
+      @include max-screen(767px) {
+        width: 13px;
+      }
     }
     a, span{
       display: inline-block;
@@ -490,7 +494,7 @@ tbody.collapse.in { display: table-row-group; }
       position: relative;
       letter-spacing: 1;
       @include max-screen(767px) {
-        font-size: 16px;
+        font-size: 12px;
       }
     }
     a{
@@ -515,8 +519,10 @@ tbody.collapse.in { display: table-row-group; }
       @include max-screen(767px) {
         padding-right: 40px;
         &:after{
-          width: 12px;
-          height: 12px;
+          width: 8px;
+          height: 8px;
+          right: 18px;
+          margin-top: -4px;
         }
       }
     }
